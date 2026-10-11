@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AttendEase</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>AttendEase</h3>
+        <form>
+            <input type="text" id="branch" placeholder="Enter branch">
+            <input type="text" id="section" placeholder="Enter section">
+            <input type="number" id="period" placeholder="Enter period number">
+            <input type="date" id="date" placeholder="Enter Date">
+        </form>
+        <div id="Numeric_Keypad">
+            <h3>Enter roll number</h3>
+            <div id="display"></div>
+            <div id="keys">
+            <div id="ones"> 
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+            </div>
+            <div id="twos"> 
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+            </div>
+            <div id="threes"> 
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+            </div>
+                <div id="submit">
+                    <button id="delete">⌫</button>
+                    <button id="zero">0</button>
+                    <button id="clear">C</button>
+                    <br>
+                    <button id="add">Add</button>
+                </div>
+            </div>
+        </div>
+        <div id="sorteddisplay"></div>
+        <button id="download">Download pdf</button>
+        <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    </body>
+</html> 
